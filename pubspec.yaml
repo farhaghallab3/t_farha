@@ -1,0 +1,119 @@
+name: t_farha
+description: "A new Flutter project."
+
+
+publish_to: 'none' 
+
+
+version: 3.3.4
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+#---------------package---------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_dotenv: ^5.0.2
+  # utility
+  http: ^1.2.2
+  intl: ^0.20.0
+  logger: ^2.5.0
+  url_launcher: ^6.3.1
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.2.0+3
+
+
+
+
+
+  
+  #icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+  #state flutter_state_management:
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logos/
+    - assets/icons/brands/
+    - assets/images/on_boarding/
+    - assets/fonts/
+    - assets/images/animations/
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins/Poppins-BoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+    - family: Coolvetica
+      fonts:
+        - asset: assets/fonts/coolvetica/coolvetica rg.otf
+          weight: 400
+        - asset: assets/fonts/coolvetica/coolvetica rg it.otf
+          weight: 400
+          style: italic
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
